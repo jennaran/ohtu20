@@ -19,7 +19,7 @@ public class App {
 
     public String[] ask() {
         String[] userPwd = new String[2];
-        userPwd[0] = io.readLine("username:");
+        userPwd[0] = io.rezdLine("username:");
         userPwd[1] = io.readLine("password:");
         return userPwd;
     }
